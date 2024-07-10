@@ -1,0 +1,214 @@
+@media only screen and (max-width: 480px) {
+
+
+
+    .rowResponsive {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        .about-button {
+            margin: auto;
+        }
+    }
+
+    #header {
+        padding: 10px;
+        margin: 0;
+
+        .header-container {
+            justify-content: space-between;
+        }
+
+        .headerSidenav {
+            display: flex !important;
+            gap: 20px;
+
+            .headerButton {
+                display: block !important;
+            }
+
+            .headerButton2 {
+                background-color: transparent;
+                color: black;
+                border: none;
+            }
+        }
+    }
+
+    .modal {
+        .modal-title span {
+            color: #E03A3C;
+            font-size: 40px;
+        }
+
+        .modal-body {
+            flex-direction: column;
+            align-items: baseline;
+            gap: 20px
+        }
+    }
+
+    .home-wrapper {
+        padding-left: 50px !important;
+    }
+
+    .about-middle {
+        padding: 50px 0px !important;
+
+        .middle-box {
+            width: 90%;
+            margin: auto;
+        }
+    }
+
+    .about-bottom {
+        ul {
+            margin: 0 !important;
+            gap: 0px !important;
+            justify-content: space-evenly;
+            padding: 50px 0;
+
+            .about-bottom-heading,
+            .about-bottom-heading-active {
+                h4 {
+                    display: none;
+                }
+            }
+        }
+
+        .about-bottom-content {
+            width: 100%;
+
+            .tab-content-active,
+            tab-content {
+                width: 100%;
+                flex-direction: column;
+                padding-bottom: 50px;
+
+                .aboutImgRes {
+                    display: block !important;
+
+                    img {
+                        max-width: 90% !important;
+                    }
+                }
+
+                .left {
+                    padding-left: 0;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+
+    #services {
+        padding: 50px 0 !important;
+
+        /* padding-top: 50px !important; */
+        .services-grid {
+            display: block;
+        }
+    }
+
+    #portfolio {
+        .portfolio-grid {
+            display: flex !important;
+            flex-direction: column;
+            width: 90%;
+            margin: auto;
+        }
+    }
+
+    #testimonials {
+        .owl-testimonial {
+            padding: 0px !important;
+            text-align: left;
+
+            .owl-item {
+                margin-left: 40px !important;
+                padding: 20px !important;
+                width: 90% !important;
+            }
+        }
+    }
+
+    #faq {
+        svg {
+            display: none;
+        }
+    }
+
+    #team {
+        .teamMembers {
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+
+            .teamMember {
+                width: 90% !important;
+
+                .teamMenberSocial {
+                    top: 65% !important;
+
+                }
+            }
+        }
+    }
+    #contact{
+        margin: 0 !important;
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
+        .contact-content{
+            flex-direction: column;
+            .left {
+                width: 100% !important;
+                .bottom{
+                    flex-direction: column;
+                    width: 100% !important;
+                    gap: 20px;
+                }
+            }
+        }
+        .contactRes {
+            width: 90% !important;
+            margin: auto;
+        }
+        .contactTextbox{
+            width: 90% !important;
+            align-items: center !important;
+            justify-content: center !important;
+            gap: 20px;
+            margin: auto;
+            margin-top: 20px;
+            .inputTop{
+                flex-direction: column;
+                width: 90% !important;
+                gap: 20px !important;
+                input {
+                    width: 100% !important;
+                }
+            }
+            input {
+                width: 90% !important;
+            }
+            textarea {
+                width: 90% !important;
+            }
+        }
+    }
+    #footer{
+        padding: 20px !important;
+        .footerTop{
+            gap: 30px;
+            flex-direction: column;
+            .footerC4Res{
+                display: block !important;
+            }
+        }
+        .footerBottom{
+            margin-top: 50px;
+            border-top: #bbbbbb49 1px solid;
+        }
+    }
+}
