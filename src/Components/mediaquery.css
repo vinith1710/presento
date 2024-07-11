@@ -175,7 +175,7 @@
             margin: auto;
         }
         .contactTextbox{
-            display: none;
+            display: none !important;
             width: 90% !important;
             align-items: center !important;
             justify-content: center !important;
