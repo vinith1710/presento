@@ -14,7 +14,7 @@ const Testimonials = () => {
         <div id='testimonials'>
             <h1>TESTIMONIALS</h1>
             <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-            <OwlCarousel className='owl-theme owl-testimonial' loop dotsEach  autoplayTimeout={2000} responsive={{0:{items:1},600:{items:2},1000:{items:3}}}>
+            <OwlCarousel className='owl-theme owl-testimonial' loop dotsEach autoplay autoplayTimeout={2000} responsive={{0:{items:1},600:{items:2},1000:{items:3}}}>
                 <div class='item'>
                     <img src={testimonial1} alt='' />
                     <h5>Saul Goodman</h5>
