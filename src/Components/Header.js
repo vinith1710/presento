@@ -23,7 +23,7 @@ const Header = () => {
         <div className='header-logo'>
           <h2>Presento<span>.</span></h2>
         </div>
-        <div className='header-nav 		d-none d-md-flex'>
+        <div className='header-nav d-none d-md-flex'>
           <span><a style={{ color: 'red' }} href='#home'>Home</a></span>
           <span><a href='#about'>About</a></span>
           <span><a href='#services'>Services</a></span>
