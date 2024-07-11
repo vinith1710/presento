@@ -183,16 +183,18 @@
             margin-top: 20px;
             .inputTop{
                 flex-direction: column;
-                width: 90% !important;
                 gap: 20px !important;
+                width: 90% !important;
                 input {
                     width: 100% !important;
                 }
             } 
             input {
+                
                 width: 90% !important;
             }
             textarea {
+                
                 width: 90% !important;
             }
         }
